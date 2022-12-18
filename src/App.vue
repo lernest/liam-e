@@ -1,22 +1,19 @@
 <template>
   <div id="app">
-    <h1>Liam Ernest</h1>
-    <h2>Welcome to my webpage</h2>
-    <section>
-      <h3></h3>
-    </section>
-    <Juggler/>
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/juggler">Juggler</router-link>
+    </div>
+    <div class="container">
+    </div>
+      <router-view/>
   </div>
 </template>
 
 <script>
-import Juggler from './components/Juggler.vue'
 
 export default {
   name: 'App',
-  components: {
-    Juggler
-  }
 }
 </script>
 
@@ -27,6 +24,18 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+#nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
 }
 </style>

@@ -63,6 +63,7 @@ const patterns = [
     ]
 
 export default {
+  name: 'juggler',
     data(){
         return{
             currentPattern: 0,
