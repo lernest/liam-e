@@ -1,5 +1,5 @@
 <template>
-<div class="container">
+<div class="juggle-container">
     <div class="title">
     <h1>Juggling Patterns</h1>
     <h2 id="title">{{patternTitle}}</h2>
@@ -123,7 +123,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 html{

@@ -26,50 +26,46 @@ export default {
   --secondary-bkg-color: #11334A;
   --tertiary-bkg-color: #4B0D49;
   --accent-color: #E210CB;
+  --accent-hover-color: #ff17e4;
   --light-accent-color: #86FBFB;
   --font-size: 1.3rem;
   --sans: 'Oxygen', sans-serif;
   --mono:'Oxygen Mono', monospace;
+  --text-color: #f7f8fa;
 }
-
 
 html{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-align: left;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit
+  box-sizing: inherit;
+}
+
+h1, h2, h3, p{
+  margin: 0;
+}
+
+a{
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+a:hover{
+  color: var(--accent-hover-color)
 }
 
 body{
   padding: 0;
   margin: 0;
-  font-family: var(--sans)
+  font-family: var(--sans);
+  color: var(--text-color);
+  font-size: var(--font-size);
+  background-color: var(--primary-bkg-color);
 }
-
-/* 
-#app {
-  font-family: var(--secondary-font);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  : center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-} */
 </style>
