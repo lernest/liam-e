@@ -9,7 +9,7 @@
     <section id="contact">
       <h2>Contact Me</h2>
       <p>I'm always interested in hearing about new job opportunities, writing curricula, or instructional design work.</p>
-      <p><a href="mailto:liamjohnernest@gmail.com"></a>Email me</p>
+      <p><a href="mailto:liamjohnernest@gmail.com">Email me</a></p>
     </section>
     </div>
 </template>
@@ -46,5 +46,11 @@ export default {
   #contact{
     background-color: var(--tertiary-bkg-color);
     text-align: center;
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  #contact p:last-child{
+    margin-top: 3rem;
   }
 </style>

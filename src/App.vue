@@ -1,10 +1,6 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/juggler">Juggler</router-link> | 
-      <a href="https://github.com/lernest">GitHub</a>
-    </div>
+    <Nav />
     <div class="container">
     </div>
       <router-view/>
@@ -12,9 +8,12 @@
 </template>
 
 <script>
-
+import Nav from './components/Nav.vue'
 export default {
   name: 'App',
+  components: {
+    Nav
+  }
 }
 </script>
 
