@@ -27,9 +27,7 @@
           <h4>Jumping on the bandwagon</h4>
           <h3>WordsyWords</h3>
           <p class="black-box">
-            A semi-clone of the NYT Wordle game.
-            Initially interested in the scoring algorithm, I decided to round it out with a full front end, including CSS animations.
-            The name "WordsyWords" came about due to its domain name availability on Netlify.
+            A <a href="https://wordsywords.netlify.app/" target="_blank">semi-clone</a> of the <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank">NYT Wordle game</a>. Initially interested in the scoring algorithm, I decided to round it out with a full front end, including CSS animations. The name "WordsyWords" came about due to its domain name availability on Netlify.
             </p>
           <h4>Technologies used include:</h4>
           <ul>
@@ -48,7 +46,7 @@
           <h4>Meta</h4>
           <h3>This Website</h3>
           <p class="black-box">
-            This website is based off of a tutorial on FrontendMasters by Jen Kramer. The course covers CSS techniques including flexbox, grid, variables. Jen prioritizes accessibility and emphasizes strong semantic HTML.
+            <a href="/">This website</a> is based off of a tutorial on FrontendMasters by Jen Kramer. The course covers CSS techniques including flexbox, grid, variables. Jen prioritizes accessibility and emphasizes strong semantic HTML.
             </p>
           <h4>Technologies used include:</h4>
           <ul>
@@ -67,7 +65,7 @@
           <h4>Just for fun</h4>
           <h3>The Juggler</h3>
           <p class="black-box">
-            This <a href="https://codepen.io/lernest/full/eYKLbqR">codepen</a> was an exploration of SVG animations and a love letter to juggling.  
+            <a href="https://codepen.io/lernest/full/eYKLbqR" target="_blank">This codepen</a> was an exploration of SVG animations and a love letter to juggling.  
             </p>
           <h4>Technologies used include:</h4>
           <ul>
