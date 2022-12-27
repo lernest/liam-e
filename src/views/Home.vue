@@ -8,7 +8,7 @@
     </section>
     <section id="contact">
       <h2>Contact Me</h2>
-      <p>I'm always interested in hearing about new job opportunities, writing curricula, or instructional design work.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit debitis error perferendis distinctio illo? Voluptates vitae asperiores.</p>
       <p><a href="mailto:liamjohnernest@gmail.com">Email me</a></p>
     </section>
     </div>

@@ -1,12 +1,23 @@
 <template>
     <nav>
         <ul>
-            <li><h1><router-link to="/"><font-awesome-icon id="icon" icon="fa-solid fa-code" />Liam Ernest</router-link></h1></li>
+            <li><h1>
+                <router-link to="/">
+                    <span><font-awesome-icon class="icon" icon="fa-solid fa-mountain-sun" aria-hidden="true"/></span>
+                    <span>Liam Ernest</span> 
+                </router-link></h1></li>
             <li>Projects</li>
             <li>About</li>
             <li>Contact</li>
-            <li>LinkedIn</li>
-            <li><a href="https://github.com/lernest" target="_blank">GitHub</a></li>
+            <li>
+                <a href="https://www.linkedin.com/in/liamernest/" target="_blank"><font-awesome-icon class="icon" icon="fa-brands fa-linkedin" aria-hidden="true"/>
+                <span class="sr-only">LinkedIn</span>
+                </a>
+            </li>
+            <li><a href="https://github.com/lernest" target="_blank">
+                <font-awesome-icon class="icon" icon="fa-brands fa-square-github" aria-hidden="true"/>
+                <span class="sr-only">GitHub</span>
+            </a></li>
             <li>Resume</li>
             <!-- <li><router-link to="/juggler">Juggler</router-link></li> -->
         </ul>
@@ -20,10 +31,6 @@ export default {
 </script>
 
 <style>
-
-#icon{
-    margin-right: 0.7rem;
-}
 
 nav{
     font-family: var(--mono);
@@ -62,6 +69,16 @@ nav a:hover, router-link:hover, nav li:hover{
 nav li:first-child{
     flex-basis: 100%;
     text-align: center;
+}
+
+h1 .icon{
+    margin-right: 0.7rem;
+    color: var(--light-accent-color);
+    padding-bottom: 0.1rem;
+}
+
+a .icon{
+    font-size:1.4rem;
 }
 /* 
 @media(max-width:900px){

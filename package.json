@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/vue-fontawesome": "^2.0.9",
     "core-js": "^3.6.4",
@@ -15,9 +16,9 @@
     "vue-router": "^3.1.5"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.2.3",
-    "@vue/cli-plugin-router": "~4.2.3",
-    "@vue/cli-service": "~4.2.3",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-router": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "vue-template-compiler": "^2.6.11"
   }
 }
