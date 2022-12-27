@@ -16,6 +16,8 @@
         <p><a href="mailto:liamjohnernest@gmail.com" class="button">Email me</a></p>
       </section>
     </div>
+
+    <div class="border"></div>
       
     <footer>
         <h2>Liam Ernest &middot; Software Engineer</h2>
@@ -54,10 +56,9 @@ export default {
   }
 
 .border{
-/* #ff17e4 and 86fbfb */
-background: rgb(255,23,228);
-background: linear-gradient(90deg, rgba(255,23,228,1) 0%, rgba(134,251,251,1) 100%);
-height: 3px;
+  /* #ff17e4 and 86fbfb */
+  background: linear-gradient(90deg, rgba(255,23,228,1) 0%, rgba(134,251,251,1) 100%);
+  height: 2px;
 }
 
 
@@ -77,7 +78,7 @@ height: 3px;
 }
 
 #intro{
-  padding: 4rem 1rem 10rem 1rem;
+  padding: 4rem 1rem 9rem 1rem;
   max-width: 1200px;
   margin: 0 auto;
   text-align: left;
