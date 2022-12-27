@@ -18,7 +18,7 @@
                 <font-awesome-icon class="icon" icon="fa-brands fa-square-github" aria-hidden="true"/>
                 <span class="sr-only">GitHub</span>
             </a></li>
-            <li>Resume</li>
+            <li><a href="https://github.com/lernest" class="button" target="_blank">Resume</a></li>
             <!-- <li><router-link to="/juggler">Juggler</router-link></li> -->
         </ul>
     </nav>
@@ -80,10 +80,28 @@ h1 .icon{
 a .icon{
     font-size:1.4rem;
 }
-/* 
-@media(max-width:900px){
-    #nav{
-        display: none;
+
+.button{
+    background-color: var(--accent-color);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: var(--white);
+    background-color: var(--accent-hover-color);
+}
+
+@media(min-width:850px){
+    nav{
+        max-width: 1200px;
+        margin: 0 auto;
     }
-} */
+    nav li:first-child{
+        flex-basis: auto;
+        text-align: left;
+        margin-right: auto;
+    }
+
+}
 </style>

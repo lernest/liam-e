@@ -31,6 +31,7 @@ export default {
   --sans: 'Oxygen', sans-serif;
   --mono:'Oxygen Mono', monospace;
   --text-color: #f7f8fa;
+  --white: #f7f8fa;
 }
 
 html{
