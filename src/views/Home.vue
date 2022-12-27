@@ -1,11 +1,13 @@
 <template>
   <div class="home">
     <section id="intro">
-      <p class="name">Hi, my name is <span>Liam Ernest.</span></p>
+      <div class="name">Hi, my name is <span>Liam Ernest.</span></div>
       <h2>I build websites.</h2>
       <p>I'm a full stack web developer and accessibility advocate.</p>
       <p>Currently, I'm working as a software engineer at <a href="www.t-mobile.com">T-Mobile</a>.</p>
     </section>
+
+    <div class="border"></div>
 
     <div class="contact-section">
       <section id="contact">
@@ -51,6 +53,13 @@ export default {
     padding: 50px;
   }
 
+.border{
+/* #ff17e4 and 86fbfb */
+background: rgb(255,23,228);
+background: linear-gradient(90deg, rgba(255,23,228,1) 0%, rgba(134,251,251,1) 100%);
+height: 3px;
+}
+
 
 /* button */
 .button{
@@ -72,15 +81,17 @@ export default {
   max-width: 1200px;
   margin: 0 auto;
   text-align: left;
-
+  line-height: 1.5;
 }
 #intro p{
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 2.5;
 }
 #intro .name{
   font-family: var(--mono);
+  font-size: 1rem;
 }
+
 
 .name span{
   font-family: var(--sans);
