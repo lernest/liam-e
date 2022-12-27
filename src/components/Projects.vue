@@ -100,7 +100,7 @@ export default {
 
   #projects ul{
     list-style-type: none;
-    margin: 0;
+    margin: 0.5rem 0;
     padding: 0;
     display: flex;
     flex-flow: row wrap;
