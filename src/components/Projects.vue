@@ -2,50 +2,84 @@
   <div class="projects-section">
   <section id="projects">
     <h2>Projects I'm proud of</h2>
-    <ul>
-      <li>
-        <article>
-          <div class="text">
-            <h4>Latest Project</h4>
-            <h3>WordsyWords</h3>
-            <p class="black-box">
-              A semi-clone of the NYT Wordle game.
-              Initially interested in the scoring algorithm, I decided to round it out with a full front end, including CSS animations.
-              The name "WordsyWords" came about due to its domain name availability on Netlify.
-              </p>
-            <h4>Technologies used include:</h4>
-            <ul>
-              <li>Vue</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
-          </div>
-          <img src="../assets/wordsywords.png" alt="Screenshot of WordsyWords." />
-        
-        </article>
-        </li>
-        <li>
-        <article class="reverse">
-          <div class="text">
-            <h4>Latest Project</h4>
-            <h3>Rubiks Timer</h3>
-            <p class="black-box">
-              A timer for practicing solving a Rubik's cube. The data is persisted in a Postgres database.
-                The paginated history can be filtered and sorted.</p>
-            <h4>Technologies used include:</h4>
-            <ul>
-              <li>Vue</li>
-              <li>Node.js</li>
-              <li>Postgres</li>
-              <li>Docker</li>
-            </ul>
-          </div>
-          <img src="../assets/rubiks.png" alt="Screenshot of Rubiks Timer." />
-        
-        </article>
-        </li>
-    </ul>
+
+    <article>
+        <div class="text">
+          <h4>Latest Project</h4>
+          <h3>Rubiks Timer</h3>
+          <p class="black-box">
+            A timer for practicing solving a Rubik's cube. The data is persisted in a Postgres database.
+              The paginated history can be filtered and sorted.</p>
+          <h4>Technologies used include:</h4>
+          <ul>
+            <li>Vue</li>
+            <li>Node.js</li>
+            <li>Postgres</li>
+            <li>Docker</li>
+          </ul>
+        </div>
+        <img src="../assets/rubiks.png" alt="Screenshot of Rubiks Timer." />
+      
+      </article>
+
+      <article class="reverse">
+        <div class="text">
+          <h4>Jumping on the bandwagon</h4>
+          <h3>WordsyWords</h3>
+          <p class="black-box">
+            A semi-clone of the NYT Wordle game.
+            Initially interested in the scoring algorithm, I decided to round it out with a full front end, including CSS animations.
+            The name "WordsyWords" came about due to its domain name availability on Netlify.
+            </p>
+          <h4>Technologies used include:</h4>
+          <ul>
+            <li>Vue</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <img src="../assets/wordsywords.png" alt="Screenshot of WordsyWords." />
+      
+      </article>
+
+
+      <article>
+        <div class="text">
+          <h4>Meta</h4>
+          <h3>This Website</h3>
+          <p class="black-box">
+            This website is based off of a tutorial on FrontendMasters by Jen Kramer. The course covers CSS techniques including flexbox, grid, variables. Jen prioritizes accessibility and emphasizes strong semantic HTML.
+            </p>
+          <h4>Technologies used include:</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Vue</li>
+          </ul>
+        </div>
+        <img src="../assets/liam-e.png" alt="Screenshot of WordsyWords." />
+      
+      </article>
+
     
+      <article class="reverse">
+        <div class="text">
+          <h4>Just for fun</h4>
+          <h3>The Juggler</h3>
+          <p class="black-box">
+            This <a href="https://codepen.io/lernest/full/eYKLbqR">codepen</a> was an exploration of SVG animations and a love letter to juggling.  
+            </p>
+          <h4>Technologies used include:</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SVG animations</li>
+          </ul>
+        </div>
+        <img src="../assets/juggler.png" alt="Screenshot of The Juggler." />
+      
+      </article>
+
 
 
   </section>
