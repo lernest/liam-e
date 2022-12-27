@@ -4,7 +4,7 @@
       <div class="name">Hi, my name is <span>Liam Ernest.</span></div>
       <h2>I build websites.</h2>
       <p>I'm a full stack web developer and accessibility advocate.</p>
-      <p>Currently, I'm working as a software engineer at <a href="https://www.t-mobile.com">T-Mobile</a>.</p>
+      <p>Currently, I'm working as a software engineer at <a href="https://www.t-mobile.com" target="_blank">T-Mobile</a>.</p>
     </section>
     
     <div class="border"></div>
