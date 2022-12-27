@@ -77,6 +77,8 @@ export default {
 
   #projects{
     padding: 4rem 1rem;
+    max-width: 1200px;
+    margin: auto;
   }
 
   #projects h2{

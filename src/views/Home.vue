@@ -16,7 +16,7 @@
     <div class="contact-section">
       <section id="contact">
         <h2>Contact Me</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit debitis error perferendis distinctio illo? Voluptates vitae asperiores.</p>
+        <p>I'm always interested in hearing about new opportunities to work on building accessible websites.</p>
         <p><a href="mailto:liamjohnernest@gmail.com" class="button">Email me</a></p>
       </section>
     </div>
