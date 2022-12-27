@@ -1,7 +1,7 @@
 <template>
     <nav>
         <ul>
-            <li><h1><router-link to="/">Liam Ernest</router-link></h1></li>
+            <li><h1><router-link to="/"><font-awesome-icon id="icon" icon="fa-solid fa-code" />Liam Ernest</router-link></h1></li>
             <li>Projects</li>
             <li>About</li>
             <li>Contact</li>
@@ -20,6 +20,10 @@ export default {
 </script>
 
 <style>
+
+#icon{
+    margin-right: 0.7rem;
+}
 
 nav{
     font-family: var(--mono);
