@@ -32,6 +32,7 @@ export default {
   --mono:'Oxygen Mono', monospace;
   --text-color: #f7f8fa;
   --white: #f7f8fa;
+  --black: #171321;
 }
 
 html{
@@ -47,8 +48,12 @@ html{
   box-sizing: inherit;
 }
 
-h1, h2, h3, p{
+h1, h2, h3, h4, p{
   margin: 0;
+}
+
+img{
+  width: 100%;
 }
 
 a{

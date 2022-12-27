@@ -6,6 +6,10 @@
       <p>I'm a full stack web developer and accessibility advocate.</p>
       <p>Currently, I'm working as a software engineer at <a href="www.t-mobile.com">T-Mobile</a>.</p>
     </section>
+    
+    <div class="border"></div>
+
+    <Projects />
 
     <div class="border"></div>
 
@@ -42,10 +46,13 @@
 </template>
 
 <script>
+import Projects from '../components/Projects.vue'
 // @ is an alias to /src
-
 export default {
   name: 'Home',
+  components:{
+    Projects
+  }
 }
 </script>
 <style>
@@ -60,7 +67,6 @@ export default {
   background: linear-gradient(90deg, rgba(255,23,228,1) 0%, rgba(134,251,251,1) 100%);
   height: 2px;
 }
-
 
 /* button */
 .button{

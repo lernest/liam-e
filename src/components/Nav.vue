@@ -6,9 +6,9 @@
                     <span><font-awesome-icon class="icon" icon="fa-solid fa-mountain-sun" aria-hidden="true"/></span>
                     <span>Liam Ernest</span> 
                 </router-link></h1></li>
-            <li>Projects</li>
+            <li><a href="#projects">Projects</a></li>
             <li>About</li>
-            <li>Contact</li>
+            <li><a href="#contact">Contact</a></li>
             <li>
                 <a href="https://www.linkedin.com/in/liamernest/" target="_blank"><font-awesome-icon class="icon" icon="fa-brands fa-linkedin" aria-hidden="true"/>
                 <span class="sr-only">LinkedIn</span>
@@ -79,17 +79,6 @@ h1 .icon{
 
 a .icon{
     font-size:1.4rem;
-}
-
-.button{
-    background-color: var(--accent-color);
-    padding: 0.5rem;
-    border-radius: 5px;
-}
-
-.button:hover {
-    color: var(--white);
-    background-color: var(--accent-hover-color);
 }
 
 @media(min-width:850px){
