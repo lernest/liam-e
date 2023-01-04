@@ -59,7 +59,7 @@ export default {
 /* background colors */
 .contact-section{
     background-color: var(--tertiary-bkg-color);
-    padding: 50px;
+    padding: 50px 0 50px 0;
   }
 
 .border{
@@ -114,7 +114,7 @@ export default {
 
 #contact{
   text-align: center;
-  width: 400px;
+  width: 350px;
   margin: 0 auto;
 }
 
