@@ -6,6 +6,23 @@
     <article>
         <div class="text">
           <h4>Latest Project</h4>
+          <h3>Cat Genetics</h3>
+          <p class="black-box">
+            <a href="https://cat-genetics.netlify.app/">This website</a> is a study of cat genetics and the possible kittens phenotypes that can result from a different combinations of parental genes.
+            </p>
+          <h4>Technologies used include:</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Vue</li>
+          </ul>
+        </div>
+        <img src="../assets/cats.png" alt="Screenshot of cat genetics website." />
+      </article>
+
+    <article class="reverse">
+        <div class="text">
+          <!-- <h4>Latest Project</h4> -->
           <h3>Rubiks Timer</h3>
           <p class="black-box">
             A timer for practicing solving a Rubik's cube. The data is persisted in a Postgres database.
@@ -22,7 +39,7 @@
       
       </article>
 
-      <article class="reverse">
+      <article>
         <div class="text">
           <h4>Jumping on the bandwagon</h4>
           <h3>WordsyWords</h3>
@@ -37,27 +54,10 @@
           </ul>
         </div>
         <img src="../assets/wordsywords.png" alt="Screenshot of WordsyWords." />
-      
       </article>
 
 
-      <article>
-        <div class="text">
-          <h4>Meta</h4>
-          <h3>This Website</h3>
-          <p class="black-box">
-            <a href="/">This website</a> is based off of a tutorial on FrontendMasters by Jen Kramer. The course covers CSS techniques including flexbox, grid, variables. Jen prioritizes accessibility and emphasizes strong semantic HTML.
-            </p>
-          <h4>Technologies used include:</h4>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Vue</li>
-          </ul>
-        </div>
-        <img src="../assets/liam-e.png" alt="Screenshot of WordsyWords." />
-      
-      </article>
+
 
     
       <article class="reverse">
