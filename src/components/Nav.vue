@@ -18,7 +18,7 @@
                 <font-awesome-icon class="icon" icon="fa-brands fa-square-github" aria-hidden="true"/>
                 <span class="sr-only">GitHub</span>
             </a></li>
-            <li><a href="src/assets/resume_dec2022.pdf" class="button" target="_blank">Resume</a></li>
+            <li><a href="./resume_dec2022.pdf" class="button" target="_blank">Resume</a></li>
             <!-- <li><router-link to="/juggler">Juggler</router-link></li> -->
         </ul>
     </nav>
