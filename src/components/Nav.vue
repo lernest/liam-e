@@ -7,7 +7,7 @@
                     <span>Liam Ernest</span> 
                 </router-link></h1></li>
             <li><a href="#projects">Projects</a></li>
-            <li>About</li>
+            <!-- <li>About</li> -->
             <li><a href="#contact">Contact</a></li>
             <li>
                 <a href="https://www.linkedin.com/in/liamernest/" target="_blank"><font-awesome-icon class="icon" icon="fa-brands fa-linkedin" aria-hidden="true"/>
