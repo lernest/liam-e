@@ -8,7 +8,7 @@
           <h4>Latest Project</h4>
           <h3>Cat Genetics <a href="https://github.com/lernest/cat-genetics" target="_blank">
                 <font-awesome-icon class="icon" icon="fa-brands fa-square-github" aria-hidden="true"/>
-                <span class="sr-only">Rubiks Timer GitHub</span>
+                <span class="sr-only">Cat genetics GitHub</span>
             </a></h3>
           <p class="black-box">
             <a href="https://cat-genetics.netlify.app/">This website</a> is a study of cat genetics and the possible kittens phenotypes that can result from a different combinations of parental genes.
