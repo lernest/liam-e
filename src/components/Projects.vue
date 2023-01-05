@@ -6,7 +6,10 @@
     <article>
         <div class="text">
           <h4>Latest Project</h4>
-          <h3>Cat Genetics</h3>
+          <h3>Cat Genetics <a href="https://github.com/lernest/cat-genetics" target="_blank">
+                <font-awesome-icon class="icon" icon="fa-brands fa-square-github" aria-hidden="true"/>
+                <span class="sr-only">Rubiks Timer GitHub</span>
+            </a></h3>
           <p class="black-box">
             <a href="https://cat-genetics.netlify.app/">This website</a> is a study of cat genetics and the possible kittens phenotypes that can result from a different combinations of parental genes.
             </p>
@@ -23,7 +26,10 @@
     <article class="reverse">
         <div class="text">
           <!-- <h4>Latest Project</h4> -->
-          <h3>Rubiks Timer</h3>
+          <h3>Rubiks Timer <a href="https://github.com/lernest/rubiks-timer" target="_blank">
+                <font-awesome-icon class="icon" icon="fa-brands fa-square-github" aria-hidden="true"/>
+                <span class="sr-only">Rubiks Timer GitHub</span>
+            </a></h3>
           <p class="black-box">
             A timer for practicing solving a Rubik's cube. The data is persisted in a Postgres database.
               The paginated history can be filtered and sorted.</p>
@@ -41,8 +47,11 @@
 
       <article>
         <div class="text">
-          <h4>Jumping on the bandwagon</h4>
-          <h3>WordsyWords</h3>
+          <!-- <h4>Jumping on the bandwagon</h4> -->
+          <h3>WordsyWords <a href="https://github.com/lernest/wordle" target="_blank">
+                <font-awesome-icon class="icon" icon="fa-brands fa-square-github" aria-hidden="true"/>
+                <span class="sr-only">WordsyWords GitHub</span>
+            </a> </h3>
           <p class="black-box">
             A <a href="https://wordsywords.netlify.app/" target="_blank">semi-clone</a> of the <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank">NYT Wordle game</a>. Initially interested in the scoring algorithm, I decided to round it out with a full front end, including CSS animations. The name "WordsyWords" came about due to its domain name availability on Netlify.
             </p>
@@ -62,7 +71,7 @@
     
       <article class="reverse">
         <div class="text">
-          <h4>Just for fun</h4>
+          <!-- <h4>Just for fun</h4> -->
           <h3>The Juggler</h3>
           <p class="black-box">
             <a href="https://codepen.io/lernest/full/eYKLbqR" target="_blank">This codepen</a> was an exploration of SVG animations and a love letter to juggling.  
@@ -98,7 +107,7 @@ export default {
 
   #projects ul{
     list-style-type: none;
-    margin: 0.5rem 0;
+    margin: 0.5rem 0.5rem;
     padding: 0;
     display: flex;
     flex-flow: row wrap;
@@ -121,11 +130,13 @@ export default {
   #projects h3{
     color: var(--light-accent-color);
     font-size: 1.3rem;
+    margin: 5px;
   }
 
   #projects h4{
     font-size: 1rem;
-    font-family: var(--mono)
+    font-family: var(--mono);
+    margin: 0.5rem;
   }
 
   #projects img{
