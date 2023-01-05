@@ -140,7 +140,7 @@ export default {
   }
 
   #projects img{
-    margin: 2rem 0 4rem 0;
+    margin: 1rem 0 4rem 0;
     border-left: 1px solid var(--light-accent-color);
     border-top: 1px solid var(--light-accent-color);
     border-radius: 25px;
@@ -174,6 +174,7 @@ export default {
     #projects img{
       grid-column: 1/6;
       grid-row: 1/2;
+      margin-top: 0;
     }
 
     #projects .reverse .text{
