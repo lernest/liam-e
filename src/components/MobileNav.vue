@@ -1,5 +1,7 @@
-<template>
-    <nav>
+<template :class="navClass">
+
+    <Slide right>
+        <nav>
         <ul>
             <li><h1>
                 <router-link to="/">
@@ -18,18 +20,54 @@
                 <font-awesome-icon class="icon" icon="fa-brands fa-square-github" aria-hidden="true"/>
                 <span class="sr-only">GitHub</span>
             </a></li>
-            <li><a href="./resume_dec2022.pdf" class="button" target="_blank">Resume</a></li>
+            <li><a href="./resume_jan2023.pdf" class="button" target="_blank">Resume</a></li>
         </ul>
     </nav>
+    </Slide>
 </template>
 
 <script>
+import { Slide } from 'vue-burger-menu'
 export default {
-    name: 'Nav'
+    name: 'MobileNav',
+    components:{
+        Slide,
+    },
+    data(){
+        return{
+            isNavOpen: true
+        }
+    },
+    computed:{
+        navClass(){
+            return this.isNavOpen ? 'open' : ''
+        }
+    },
+    methods:{
+        toggleNav(){
+            this.isNavOpen = !this.isNavOpen
+            console.log('toggling nav')
+        }
+    }
 }
 </script>
 
 <style>
+
+.open{
+    border: 3px solid red;
+    overflow: hidden;
+}
+
+.bm-overlay {
+      background: rgba(0, 0, 0, 1);
+    }
+
+
+
+/* .open button{
+
+} */
 
 nav{
     font-family: var(--mono);
@@ -91,5 +129,13 @@ a .icon{
         margin-right: auto;
     }
 
+}
+
+@media(max-width:600){
+    .mobile-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
 }
 </style>

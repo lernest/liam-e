@@ -1,6 +1,7 @@
 <template>
   <div id="app" >
-    <Nav />
+    <Nav class="desktop-nav"/>
+    <MobileNav class="mobile-nav"/>
     <div class="container">
     </div>
       <router-view/>
@@ -9,10 +10,12 @@
 
 <script>
 import Nav from './components/Nav.vue'
+import MobileNav from './components/MobileNav.vue'
 export default {
   name: 'App',
   components: {
-    Nav
+    Nav,
+    MobileNav
   }
 }
 </script>
@@ -72,5 +75,19 @@ body{
   color: var(--text-color);
   font-size: var(--font-size);
   background-color: var(--primary-bkg-color);
+}
+
+.mobile-nav{
+        display: none
+    }
+
+@media(max-width:850px){
+    .desktop-nav{
+        display: none;
+    }
+    .mobile-nav{
+        display: block
+    }
+
 }
 </style>
