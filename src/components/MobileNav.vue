@@ -1,10 +1,10 @@
-<template :class="navClass">
-<div>
-    <h1>
+<template>
+<div class="menu">
+    <!-- <h1>
     <router-link to="/">
         <span><font-awesome-icon class="mobile-icon" icon="fa-solid fa-mountain-sun" aria-hidden="true"/></span>
-        <!-- <span>Liam Ernest</span>  -->
-    </router-link></h1>
+        <span>Liam Ernest</span> 
+    </router-link></h1> -->
 
     <Slide right>
         <nav>
@@ -37,22 +37,6 @@ export default {
     name: 'MobileNav',
     components:{
         Slide,
-    },
-    data(){
-        return{
-            isNavOpen: true
-        }
-    },
-    computed:{
-        navClass(){
-            return this.isNavOpen ? 'open' : ''
-        }
-    },
-    methods:{
-        toggleNav(){
-            this.isNavOpen = !this.isNavOpen
-            console.log('toggling nav')
-        }
     }
 }
 </script>
@@ -74,7 +58,7 @@ export default {
 
 } */
 
-nav{
+.menu nav{
     font-family: var(--mono);
     font-size: 80%;
     padding-left: 2.5rem;
@@ -82,12 +66,16 @@ nav{
     /* margin-bottom: 30px; */
 }
 
-nav h1{
+.menu{
+    margin-bottom: 3rem
+}
+
+.menu nav h1{
     font-family: var(--sans);
     /* font-size: inherit; */
 }
 
-.column{
+.menu .column{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -99,13 +87,13 @@ nav h1{
     text-align: center;
 }
 
-nav a, router-link, nav li{
+.menu nav a, router-link, nav li{
     color: var(--white);
     text-decoration: none;
     display: block;
 }
 
-nav a:hover, router-link:hover, nav li:hover{
+.menu nav a:hover, router-link:hover, nav li:hover{
     color: var(--accent-color)
 }
 
@@ -118,29 +106,29 @@ nav li:last-child{
     text-align: center;
 } */
 
-h1 .icon{
+/* h1 .icon{
     margin-right: 0.7rem;
     color: var(--light-accent-color);
     padding-bottom: 0.1rem;
-}
+} */
 
-.mobile-icon{
+/* .mobile-icon{
     margin: 2rem 0rem -1rem 2rem;
     color: var(--light-accent-color);
     font-size: 2rem
-}
+} */
 
-a .icon{
+.menu a .icon{
     font-size:1.4rem;
 }
-nav{
+.menu nav{
         max-width: 1200px;
         margin: 0 auto;
     }
-    nav li:first-child{
-        flex-basis: auto;
-        text-align: left;
-        margin-right: auto;
-    }
+.menu nav li:first-child{
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+}
 
 </style>

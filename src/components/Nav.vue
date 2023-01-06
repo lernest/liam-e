@@ -18,7 +18,7 @@
                 <font-awesome-icon class="icon" icon="fa-brands fa-square-github" aria-hidden="true"/>
                 <span class="sr-only">GitHub</span>
             </a></li>
-            <li><a href="./resume_dec2022.pdf" class="button" target="_blank">Resume</a></li>
+            <li><a href="./resume_jan2023.pdf" class="button" target="_blank">Resume</a></li>
         </ul>
     </nav>
 </template>
@@ -29,20 +29,17 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style>
 nav{
     font-family: var(--mono);
     font-size: 80%;
     padding: 1rem;
     /* margin-bottom: 30px; */
 }
-
 nav h1{
     font-family: var(--sans);
     /* font-size: inherit; */
 }
-
 nav ul{
     list-style-type: none;
     margin: 0;
@@ -54,32 +51,26 @@ nav ul{
     align-items: center;
     gap: 2rem;
 }
-
 nav a, router-link, nav li{
     color: var(--white);
     text-decoration: none;
     display: block;
 }
-
 nav a:hover, router-link:hover, nav li:hover{
     color: var(--accent-color)
 }
-
 nav li:first-child{
     flex-basis: 100%;
     text-align: center;
 }
-
 h1 .icon{
     margin-right: 0.7rem;
     color: var(--light-accent-color);
     padding-bottom: 0.1rem;
 }
-
 a .icon{
     font-size:1.4rem;
 }
-/* 
 @media(min-width:850px){
     nav{
         max-width: 1200px;
@@ -90,6 +81,5 @@ a .icon{
         text-align: left;
         margin-right: auto;
     }
-
-} */
+}
 </style>
