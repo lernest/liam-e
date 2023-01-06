@@ -1,4 +1,11 @@
-<template>
+<template :class="navClass">
+    <header >
+    <!-- hamburger menu -->
+    <button class="hamburger" id="menu-btn" type="button" @click="toggleNav">
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+      </button>
     <nav>
         <ul>
             <li><h1>
@@ -18,19 +25,46 @@
                 <font-awesome-icon class="icon" icon="fa-brands fa-square-github" aria-hidden="true"/>
                 <span class="sr-only">GitHub</span>
             </a></li>
-            <li><a href="./resume_dec2022.pdf" class="button" target="_blank">Resume</a></li>
-            <!-- <li><router-link to="/juggler">Juggler</router-link></li> -->
+            <li><a href="./resume_jan2023.pdf" class="button" target="_blank">Resume</a></li>
         </ul>
     </nav>
+</header>
 </template>
 
 <script>
 export default {
-    name: 'Nav'
+    name: 'Nav',
+    data(){
+        return{
+            isNavOpen: true
+        }
+    },
+    computed:{
+        navClass(){
+            return this.isNavOpen ? 'open' : ''
+        }
+    },
+    methods:{
+        toggleNav(){
+            this.isNavOpen = !this.isNavOpen
+            console.log('toggling nav')
+        }
+    }
 }
 </script>
 
 <style>
+
+.open{
+    border: 3px solid red;
+    overflow: hidden;
+}
+
+
+
+/* .open button{
+
+} */
 
 nav{
     font-family: var(--mono);
@@ -92,5 +126,13 @@ a .icon{
         margin-right: auto;
     }
 
+}
+
+@media(max-width:600){
+    .mobile-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
 }
 </style>
