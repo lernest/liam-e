@@ -1,29 +1,34 @@
 <template :class="navClass">
+<div>
+    <h1>
+    <router-link to="/">
+        <span><font-awesome-icon class="mobile-icon" icon="fa-solid fa-mountain-sun" aria-hidden="true"/></span>
+        <!-- <span>Liam Ernest</span>  -->
+    </router-link></h1>
 
     <Slide right>
         <nav>
-        <ul>
-            <li><h1>
-                <router-link to="/">
-                    <span><font-awesome-icon class="icon" icon="fa-solid fa-mountain-sun" aria-hidden="true"/></span>
-                    <span>Liam Ernest</span> 
-                </router-link></h1></li>
+        <ul class="column">
+            <li> <h1>
+    <router-link to="/">
+        <span><font-awesome-icon class="icon" icon="fa-solid fa-mountain-sun" aria-hidden="true"/></span>
+        <span>Liam Ernest</span> 
+    </router-link></h1></li>
             <li><a href="#projects">Projects</a></li>
             <!-- <li>About</li> -->
             <li><a href="#contact">Contact</a></li>
             <li>
-                <a href="https://www.linkedin.com/in/liamernest/" target="_blank"><font-awesome-icon class="icon" icon="fa-brands fa-linkedin" aria-hidden="true"/>
-                <span class="sr-only">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/liamernest/" target="_blank">LinkedIn <font-awesome-icon class="icon" icon="fa-brands fa-linkedin" aria-hidden="true"/>
                 </a>
             </li>
             <li><a href="https://github.com/lernest" target="_blank">
-                <font-awesome-icon class="icon" icon="fa-brands fa-square-github" aria-hidden="true"/>
-                <span class="sr-only">GitHub</span>
+                GitHub <font-awesome-icon class="icon" icon="fa-brands fa-square-github" aria-hidden="true"/>
             </a></li>
             <li><a href="./resume_jan2023.pdf" class="button" target="_blank">Resume</a></li>
         </ul>
     </nav>
     </Slide>
+</div>
 </template>
 
 <script>
@@ -72,7 +77,8 @@ export default {
 nav{
     font-family: var(--mono);
     font-size: 80%;
-    padding: 1rem;
+    padding-left: 2.5rem;
+    margin-top: -1.6rem;
     /* margin-bottom: 30px; */
 }
 
@@ -81,16 +87,16 @@ nav h1{
     /* font-size: inherit; */
 }
 
-nav ul{
+.column{
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
+    /* justify-content: center; */
+    flex-direction: column;
     /* border: 1px solid red; */
-    align-items: center;
     gap: 2rem;
+    text-align: center;
 }
 
 nav a, router-link, nav li{
@@ -103,10 +109,14 @@ nav a:hover, router-link:hover, nav li:hover{
     color: var(--accent-color)
 }
 
-nav li:first-child{
+/* nav li:first-child{
     flex-basis: 100%;
     text-align: center;
 }
+nav li:last-child{
+    flex-basis: 100%;
+    text-align: center;
+} */
 
 h1 .icon{
     margin-right: 0.7rem;
@@ -114,12 +124,16 @@ h1 .icon{
     padding-bottom: 0.1rem;
 }
 
+.mobile-icon{
+    margin: 2rem 0rem -1rem 2rem;
+    color: var(--light-accent-color);
+    font-size: 2rem
+}
+
 a .icon{
     font-size:1.4rem;
 }
-
-@media(min-width:850px){
-    nav{
+nav{
         max-width: 1200px;
         margin: 0 auto;
     }
@@ -129,13 +143,4 @@ a .icon{
         margin-right: auto;
     }
 
-}
-
-@media(max-width:600){
-    .mobile-nav{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    }
-}
 </style>

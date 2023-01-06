@@ -77,17 +77,25 @@ body{
   background-color: var(--primary-bkg-color);
 }
 
-.mobile-nav{
+/* .mobile-nav{
         display: none
-    }
+    } */
 
-@media(max-width:850px){
+@media(max-width:10000px){
     .desktop-nav{
         display: none;
     }
     .mobile-nav{
         display: block
     }
+
+/* @media(max-width:850px){
+    .desktop-nav{
+        display: none;
+    }
+    .mobile-nav{
+        display: block
+    } */
 
 }
 </style>

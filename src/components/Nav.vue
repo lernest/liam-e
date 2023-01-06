@@ -29,7 +29,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 nav{
     font-family: var(--mono);
@@ -79,7 +79,7 @@ h1 .icon{
 a .icon{
     font-size:1.4rem;
 }
-
+/* 
 @media(min-width:850px){
     nav{
         max-width: 1200px;
@@ -91,5 +91,5 @@ a .icon{
         margin-right: auto;
     }
 
-}
+} */
 </style>
