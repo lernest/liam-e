@@ -15,9 +15,9 @@
             </p>
           <h4>Technologies used include:</h4>
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
             <li>Vue</li>
+            <li>Node.js</li>
+            <li>Docker</li>
           </ul>
         </div>
         <img src="../assets/cats.png" alt="Screenshot of cat genetics website." />
