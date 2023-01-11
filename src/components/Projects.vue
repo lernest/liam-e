@@ -11,7 +11,7 @@
                 <span class="sr-only">Cat genetics GitHub</span>
             </a></h3>
           <p class="black-box">
-            <a href="https://cat-genetics.netlify.app/">This website</a> is a study of cat genetics and the possible kittens phenotypes that can result from a different combinations of parental genes.
+            <a href="https://cat-genetics.netlify.app/">This website</a> is a study of cat genetics and the possible kittens phenotypes that can result from different combinations of parental genes.
             </p>
           <h4>Technologies used include:</h4>
           <ul>
