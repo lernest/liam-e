@@ -120,6 +120,38 @@
         </div>
         <img src="../assets/juggler.png" alt="Screenshot of The Juggler." />
       </article>
+
+      <article>
+        <div class="text">
+          <h3>
+            Flowers
+            <a href="https://github.com/lernest/flowers-acnh" target="_blank">
+              <font-awesome-icon
+                class="icon"
+                icon="fa-brands fa-square-github"
+                aria-hidden="true"
+              />
+              <span class="sr-only">Flowers GitHub</span>
+            </a>
+          </h3>
+          <p class="black-box">
+            A study of
+            <a href="https://flowers-acnh.netlify.app/" target="_blank"
+              >flower cross-breeding</a
+            >
+            in Animal Crossing New Horizons. Select a species of flower and two
+            colors, or the exact genotype you wish to breed. Then, see the
+            probability of each resulting genotype and corresponding phenotype.
+          </p>
+          <h4>Technologies used include:</h4>
+          <ul>
+            <li>Vue</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <img src="../assets/flowers.png" alt="Screenshot of Flowers." />
+      </article>
     </section>
   </div>
 </template>
