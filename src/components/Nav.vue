@@ -54,11 +54,9 @@ nav {
   font-family: var(--mono);
   font-size: 80%;
   padding: 1rem;
-  /* margin-bottom: 30px; */
 }
 nav h1 {
   font-family: var(--sans);
-  /* font-size: inherit; */
 }
 nav ul {
   list-style-type: none;
@@ -67,7 +65,6 @@ nav ul {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  /* border: 1px solid red; */
   align-items: center;
   gap: 2rem;
 }
