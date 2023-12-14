@@ -37,7 +37,7 @@
         </a>
       </li>
       <li>
-        <a href="./resume_jan2023.pdf" class="button" target="_blank">Resume</a>
+        <a href="./resume_dec2023.pdf" class="button" target="_blank">Resume</a>
       </li>
     </ul>
   </nav>

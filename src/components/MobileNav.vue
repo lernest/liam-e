@@ -1,11 +1,5 @@
 <template>
   <div class="menu">
-    <!-- <h1>
-    <router-link to="/">
-        <span><font-awesome-icon class="mobile-icon" icon="fa-solid fa-mountain-sun" aria-hidden="true"/></span>
-        <span>Liam Ernest</span> 
-    </router-link></h1> -->
-
     <Slide right>
       <nav>
         <ul class="column">
@@ -45,7 +39,7 @@
             </a>
           </li>
           <li>
-            <a href="./resume_jan2023.pdf" class="button" target="_blank"
+            <a href="./resume_dec2023.pdf" class="button" target="_blank"
               >Resume</a
             >
           </li>
